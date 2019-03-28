@@ -5,23 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>JQuery Functions</title>
 </head>
 <body>
-    <div class="addClass">
-        <button class="add-btn"></button>
-        <div class="section-text">
-            <h1>AddClass</h1>
-            <p>Click the button to add class 'red' to this paragraph</p>
+    <div class="wrapper">
+        <div class="body-section">
+            <button class="add-btn">AddClass</button>
+            <div class="section-text">
+                <h1>AddClass</h1>
+                <p>Click the button to add class 'red' to this paragraph</p>
+            </div>
+        </div>
+        <div class="body-section">
+            <button class="slide-btn">SlideToggle</button>
+            <div class="section-text">
+                <h1>Slidetoggle</h1>
+                <p>Click the button to slidetoggle a hidden image</p>
+                <img id="corgi-img" src="corgi_surprised.jpg" alt="corgi">
+            </div>
+        </div>
+        <div class="body-section">
+            <button class="append-btn">Append</button>
+            <div class="section-text">
+                <h1>Append</h1>
+                <p>Click the button to append a new paragraph!</p>
+            </div>
         </div>
     </div>
-    <div class="slideToggle">
-        <button class="slide-btn"></button>
-        <div class="section-text">
-            <h1>Slidetoggle</h1>
-            <p>Click the button to slidetoggle a hidden image</p>
-        </div>
-    </div>
-    <div class="append"></div>
 </body>
+<script src="script.js"></script>
 </html>
